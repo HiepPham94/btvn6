@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chung {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(182, 217, 222);
+}
+.nav-top {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+.navbar-nav {
+    width: 245px;
+}
+.navbar-nav .p {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-nav .p p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font: Roboto;
+    color: #505F98;
+}
+.nav-top .center {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    font: Roboto;
+    color: #37447E;
+}
+.nav-top button {
+    width: 160px;
+    height: 26px;
+    background-color: #111B47;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font: Roboto;
+    color: #ffffff;
+}
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-bottom .nav-right {
+    width: 540px;
+}
+.nav-bottom .nav-right p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    font: Roboto;
+    color:#505F98;
+    margin-top: 20px;
+}
+.nav-bottom .nav-right p:nth-child(1) {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    font: Roboto;
+    color: #091133;
+}
+.nav-bottom .nav-right button {
+    width: 190px;
+    height: 36px;
+    margin-top: 60px;
+}
+.nav-bottom .nav-right .button1 {
+    background-color: #111B47;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font: Roboto;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+.nav-bottom .nav-right .button2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font: Roboto;
+    color: #091133;
+    text-align: center;
+    border-radius: 5%;
+}
+.nav-bottom .nav-left img {
+    width: 700px;
+    margin-top: 100px;
+}
+.baner {
+    display: flex;
+    height: 742px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 40px auto;
+}
+.baner .baner-left {
+    width: 40%;
+
+}
+.baner .baner-right {
+    width: 50%;
+}
+.baner .baner-left .light p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    font: Roboto;
+    color:#505F98;
+    margin-top: 15px;
+}
+.baner .baner-left .light p:nth-child(1) {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    font: Roboto;
+    color: #091133;
+}
+.baner .baner-left .title {
+    display: flex;
+    margin-top: 40px;
+}
+.baner .baner-left .title .title1 img {
+    width: 36px;
+    height: 36px;
+}
+.baner .baner-left .title .title1 p:nth-child(2) {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    font: Roboto;
+    color:#091133;
+}
+.baner .baner-left .title .title1 p:nth-child(3) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font: Roboto;
+    color:#5D6970;
+}
+.baner .baner-right img {
+    width: 540px;
+    height: 525px;
+}
+.body {
+    height: 1639px;
+    background-color: rgb(232, 236, 11);
+}
+.body .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 546px;
+    margin: 0 auto;
+}
+.body .main .main-left {
+    width: 40%;
+}
+.body .main .main-right {
+    width: 50%;
+}
+.body .main img {
+    width: 400px;
+    height: 320px;
+}
+.body .main p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    font: Roboto;
+    color:#505F98;
+    margin-top: 15px;
+}
+.body .main p:nth-child(1) {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    font: Roboto;
+    color: #091133;
+}
+.footer .footer-baner {
+    display: block;
+    min-height: 700px;
+    text-align: center;
+}
+.footer .footer-baner p:nth-child(1) {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    font: Roboto;
+    color:#091133;
+    margin-top: 150px;
+}
+.footer .footer-baner .p {
+    width: 500px;
+    height: 78px;
+    margin: 0 auto;
+}
+.footer .footer-baner .p p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font: Roboto;
+    color:#6F7CB2;
+    margin-top: 25px;
+}
+.footer .footer-baner p:nth-child(3) {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    font: Roboto;
+    color:#091133;
+    margin-top: 50px;
+}
+.footer .footer-baner p:nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font: Roboto;
+    color:#37447E;
+}
+.footer .footer-baner p:nth-child(5) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font: Roboto;
+    color:#5D6970;
+    margin-top: 50px;
+}
+.footer .footer-baner button {
+    width: 190px;
+    height: 32px;
+    background-color: #111B47;
+    border-radius: 5%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font: Roboto;
+    color: #FFFFFF;
+}
+.footer .nav-bottom {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .nav-bottom .navbar {
+    width: 245px;
+    height: 45px;
+}
+.footer .nav-bottom .navbar .p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .nav-bottom img {
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
